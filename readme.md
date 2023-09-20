@@ -4,7 +4,7 @@ This is a Node.js module that allows to get Minecraft server information from va
 ## Example of usage
 
 ```javascript
-const fetchData = require('./index.js');
+const fetchData = require('insemi');
 
 async function main() {
     try {
