@@ -11,7 +11,8 @@ async function main() {
         // Specify the required options you want to get from the Minecraft API.
         // Available options: ['online', 'maxplayers', 'version', 'favicon', 'response']
         const requiredOptions = ['online'];
-        const minecraftData = await fetchData(requiredOptions);
+        // fetchData(requiredOptions, server_ip, server_port);
+        const minecraftData = await fetchData(requiredOptions, 'mc.haliacraft.com', '25565');
         console.dir(minecraftData);
     } catch (error) {
         console.error(`Error retrieving data from Minecraft API: ${error.message}`);
@@ -34,14 +35,16 @@ Returns an object with the requested Minecraft server data.
 
 Example
 
-const fetchData = require('minecraft-api-fetcher');
+const fetchData = require('insemi');
 
 async function main() {
     try {
         // Specify the required options you want to get from the Minecraft API.
         // Available options: ['online', 'maxplayers', 'version', 'favicon', 'response']
         const requiredOptions = ['online'];
-        const minecraftData = await fetchData(requiredOptions);
+        // fetchData(requiredOptions, 'mc.haliacraft.com', '25565');
+        // fetchData(requiredOptions, server_ip, server_port);
+        const minecraftData = await fetchData(requiredOptions, 'mc.haliacraft.com', '25565');
         console.dir(minecraftData);
     } catch (error) {
         console.error(`Error retrieving data from Minecraft API: ${error.message}`);
