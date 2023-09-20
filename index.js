@@ -1,6 +1,6 @@
 /**
  * Example of use
- * const fetchData = require('./index.js');
+ * const fetchData = require('insemi');
  * async function main() {
  *      try {
  *          // const requiredOptions = ['online', 'maxplayers', 'version', 'favicon','response'];

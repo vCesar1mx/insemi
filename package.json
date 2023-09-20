@@ -1,6 +1,6 @@
 {
   "name": "insemi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A easy client api for official minecraft data api reset",
   "main": "index.js",
   "scripts": {
