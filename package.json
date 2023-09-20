@@ -1,0 +1,28 @@
+{
+  "name": "insemi",
+  "version": "1.0.1",
+  "description": "A easy client api for official minecraft data api reset",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js",
+    "generate-docs": "jsdoc"
+  },
+  "keywords": [
+    "minecraft",
+    "api",
+    "data",
+    "json",
+    "api rest",
+    "minecraft api",
+    "motd",
+    "minecraft motd"
+  ],
+  "author": "vCesar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
+}
